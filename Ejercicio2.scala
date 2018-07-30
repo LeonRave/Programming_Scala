@@ -7,6 +7,6 @@ object Ejercicio2{
 		println("50! = " + f50)
 		println("49! = " + f49)
 		println("50!/49! = " + (f50 / f49))
-      
+
 	}
 }

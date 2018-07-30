@@ -32,7 +32,9 @@ object Ejercicio7{
 		val date1 = new Date(1991, 4, 16)
 		val date2 = new Date(1991, 4, 16)
 
-		printf((date1 == date2).toString)
+		println(date1 == date2 toString)
+		println(date1.toString)
+		println(date2.toString)
 	}
 
 }

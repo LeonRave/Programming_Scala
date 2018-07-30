@@ -11,6 +11,9 @@ object Ejercicio6{
 		val exp: Arbol = Sum(Sum(Var("x"),Var("x")),Sum(Const(7),Var("y")))
 		val ent: Entorno = { case "x" => 5 case "y" => 7 }
 		println("Expresión: " + exp)
+		println("Entorno x: " + ent("x"))
+		println("Entorno y: " + ent("y"))
+		println("Const 7: " + 7)
 		println("Evaluación con x=5, y=7: " + eval(exp, ent))
 		println("Derivada respecto a x:\n " + deriva(exp, "x"))
 		println("Derivada respecto a y:\n " + deriva(exp, "y"))

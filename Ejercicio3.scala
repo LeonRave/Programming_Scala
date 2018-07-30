@@ -10,6 +10,6 @@ object Ejercicio3 {
 		println(now)
 		println(df)
 		println(df.format(now))
-		//println(df format now)
+		println(df format now)
 	}
 }

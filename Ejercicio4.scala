@@ -1,7 +1,7 @@
 object Ejercicio4 {
 	def oncePerSecond(callback: () => Unit) {
 		while(true) { 
-			callback(); Thread sleep 1000 
+			callback(); Thread sleep 1000
 		}
 	}
 
@@ -10,20 +10,12 @@ object Ejercicio4 {
 	}
 
 	def main(args: Array[String]) {
-		oncePerSecond(timeFlies)
+		oncePerSecond(() => timeFlies)
 	}
 }
 
 /*
-object Ejercicio4 {
-	def unaVezPorSegundo(repite: () => unit) {
-		while(true) { 
-			repite(); Thread sleep 1000 
-		}
-	}
-
 	def main(args: Array[String]) {
 		unaVezPorSegundo(() => println("el tiempo pasa volando."))
 	}
-}
 */

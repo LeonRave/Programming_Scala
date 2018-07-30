@@ -9,5 +9,3 @@ object Ejercicio1 {
         	}	
 	}
 }
-
-
